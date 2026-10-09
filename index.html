@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Important Links</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #64748b;
+      --line: #e2e8f0;
+      --surface: #ffffff;
+      --background: #f4f7fb;
+      --accent: #2457c5;
+      --accent-soft: #edf3ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 18px;
+      background: var(--background);
+      color: var(--ink);
+      font: 16px/1.5 "Segoe UI", Arial, sans-serif;
+    }
+    main { max-width: 900px; margin: 0 auto; }
+    header { margin-bottom: 24px; }
+    h1 { margin: 0 0 6px; font-size: clamp(1.7rem, 4vw, 2.2rem); }
+    header p { margin: 0; color: var(--muted); }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      gap: 14px;
+    }
+    .link-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 19px 20px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, .035);
+      transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+    }
+    .link-card:hover, .link-card:focus-visible {
+      border-color: var(--accent);
+      box-shadow: 0 6px 18px rgba(36, 87, 197, .10);
+      transform: translateY(-1px);
+      outline: none;
+    }
+    .link-name { font-weight: 650; }
+    .link-type { display: block; margin-top: 4px; color: var(--muted); font-size: .88rem; }
+    .open { color: var(--accent); font-weight: 650; white-space: nowrap; font-size: .92rem; }
+    footer { margin-top: 22px; color: var(--muted); font-size: .85rem; }
+    @media (max-width: 440px) {
+      body { padding: 22px 12px; }
+      .link-card { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Important Links</h1>
+      <p>Quick access to TA support, feedback, maintenance, analysis, and reporting files.</p>
+    </header>
+
+    <section class="links" aria-label="Important resources">
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQBSapHrv398TrSnWbzKQbUMARZtIR107EgWav3jGRLXIgo?e=gQRzoC" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">TA Support Data Jan to Oct</span><span class="link-type">TA Support · January–October</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQAWeTQ_EKUdSKMOGOCqfNeEAVLkmX2zSL0mTua3_6KM-bg?e=kF85T6" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">Survey Feedback</span><span class="link-type">Learner feedback</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQBKcKue1iveTKRgJM9H4XFKAWQlLPutJrUYa1hBPueAY9g?e=1FmfTk" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">edX Master Plan</span><span class="link-type">Planning and tracking</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQB1aJ-k-7PSRoq_43msO1VeActwKEknzBadVZjhFcSy-eQ?e=rpaEf3" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">SUIP Course Analysis Report</span><span class="link-type">Course_Revitalisation_Analysis.xlsx</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQB7rO15KatTR6AMAvEB9UnJAXVfzytnp_Lr3n7YAVt5RXM?e=Xj6k9N" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">IBM edX GA Value Analysis — 8 Oct</span><span class="link-type">General Availability · Value analysis</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQAcGJ_xsqHsT4UFDUwbzBlpAVir25w3L_smmFuHaCEhrK8?e=O95SJb" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">IBM GA QTR Check — 8 Oct</span><span class="link-type">Quarterly check</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQBx_0ZGb3eYQJsdDAd3i62FAWhOReaUVGC6y4M_jBeAdRw?e=idDG4b" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">Coursera SUIP Maintenance Tracker</span><span class="link-type">Course maintenance tracking</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/malikas_skillup_online/IQCHBCGflAfMQ7Jpu3OTc4u5AZKp6Za9SCwHYF30E-_cb8o?e=wQ7DZg" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">SkillUp QA Review</span><span class="link-type">Quality assurance review</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQDo4zIYjUhOT6GU67HF0e4UAdJfF2CLsJnMU99orQE-XNs?e=RQknDG" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">IBM TA Support Course Grouping</span><span class="link-type">IBM_TA_Support_Groupings_v3_values.xlsx</span></span><span class="open">Open ↗</span>
+      </a>
+
+      <a class="link-card" href="https://skilluptech-my.sharepoint.com/:x:/g/personal/anamikaa_skillup_online/IQBNRgT6NP5uRpeAG7Y1-uQPAXvjp1FDTObDmV6u1567mnc?e=R8h7Mx" target="_blank" rel="noopener noreferrer">
+        <span><span class="link-name">TA Utilization Jan to Oct</span><span class="link-type">TA_Utilisation_Jan_Oct_2026.xlsx</span></span><span class="open">Open ↗</span>
+      </a>
+    </section>
+
+    <footer>Access to each resource depends on your SharePoint permissions.</footer>
+  </main>
+</body>
+</html>
